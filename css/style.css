@@ -118,6 +118,11 @@ input[type="text"]:focus {
 
     width: 100%;
   }
+
+  #hello{
+
+    width: 400px;
+  }
   
 
 @media screen and (max-width:640px) {
@@ -126,7 +131,14 @@ input[type="text"]:focus {
 
         flex-direction: column-reverse  ;
     }
+
+    #hello{
+
+        width: 100%;
+      }
 }  
+
+
   
   
   
